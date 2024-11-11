@@ -1,0 +1,31 @@
+.pagination-container {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.paginate-buttons {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: hsl(0, 0%, 95%);
+  border: .1rem solid hsl(0, 0%, 85%);
+  color: hsl(0, 0%, 0%);
+
+  &:hover {
+    background-color: hsl(0, 0%, 85%);
+  }
+}
+
+.active-page {
+  background-color: hsl(204, 70%, 53%);
+  border: .1rem solid hsl(204, 70%, 53%);
+  color: hsl(0, 0%, 100%);
+
+  &:hover {
+    background-color: hsl(204, 66%, 47%);
+  }
+}
+

@@ -1,0 +1,38 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    color: var(--primary-color);
+    background-color: var(--primary-bg);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+ul, ul li {
+    list-style: none;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    cursor: pointer;
+}
